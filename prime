@@ -1,28 +1,28 @@
 
+function prime(number){
 
-function prime(num){
-
-let count = 0;
-for(i=0;i<=num;i++){
-  if(num%i==0){
-         count ++
+  let factor = 0;
+  for(i=0;i<=number;i++){
+    if(number%i==0){
+           factor++
+    }
   }
-
-  if(count==2){
-    return true
-  }else{
-    return false
+    if(factor==2){
+      return true
+    }else{
+      return false
+    }
+    
   }
-  }
-}
- 
   
- 
-let check = prime(12)
-if(check == true){
-  console.log("Yes it is a prime number")
-}
-else if (check ==false){console.log("No it is not a prime number")}
-
+    
+   
+  let check = prime(15)
+  if(check == true){
+    console.log("Yes it is a prime number")
+  }
+  else if (check ==false){
+    console.log("No it is not a prime number")
+  }
 
   
