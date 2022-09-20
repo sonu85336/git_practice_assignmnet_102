@@ -15,7 +15,8 @@ function prime(number){
     
   }
   
-    
+ 
+
    
   let check = prime(15)
   if(check == true){
@@ -24,5 +25,6 @@ function prime(number){
   else if (check ==false){
     console.log("No it is not a prime number")
   }
+
 
   
