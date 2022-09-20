@@ -20,9 +20,9 @@ for(i=0;i<=num;i++){
  
 let check = prime(12)
 if(check == true){
-  console.log("yes")
+  console.log("prime")
 }
-else if (check ==false){console.log("no")}
+else if (check ==false){console.log("not prime")}
 
 
   
